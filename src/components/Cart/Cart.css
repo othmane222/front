@@ -1,0 +1,13 @@
+/* LandingNav.css */
+.navbar-container {
+    position: relative;
+  }
+  
+  .navbar-cart-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%; /* Optional: Adjust width if needed */
+  }
+  

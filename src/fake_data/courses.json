@@ -1,0 +1,144 @@
+[
+
+  {
+    "id": 1,
+    "thumbnail" :"../fake_data/course_images/course-1",
+    "title": "Introduction to Programming",
+    "teacher": {
+      "id": 1,
+      "username": "johnDoe",
+      "password": "password123",
+      "email": "johnDoe@example.com",
+      "role": "ADMIN",
+      "faqs": [
+        {
+          "id": 1,
+          "question": "What is a variable?",
+          "answer": "A variable is a storage location, with a specific type and an associated name.",
+          "user": "student1",
+          "course": "Introduction to Programming"
+        }
+      ]
+    },
+    "category": {
+      "id": 1,
+      "thumbnail"  :"./images/course-2",
+      "name": "Programming",
+      "description": "Courses related to programming and software development."
+    },
+    "price": 100,
+    "description": "This course introduces the basics of programming."
+  },
+  {
+    "id": 2,
+    "thumbnail" : "../fake_data/course_images/course-1",
+    "title": "Web Development Basics",
+    "teacher": {
+      "id": 2,
+      "username": "janeDoe",
+      "password": "password456",
+      "email": "janeDoe@example.com",
+      "role": "ADMIN",
+      "faqs": [
+        {
+          "id": 2,
+          "question": "What is HTML?",
+          "answer": "HTML stands for Hyper Text Markup Language. It is used to design the structure of web pages.",
+          "user": "student2",
+          "course": "Web Development Basics"
+        }
+      ]
+    },
+    "category": {
+      "id": 2,
+      "name": "Web Development",
+      "description": "Courses related to web development."
+    },
+    "price": 150,
+    "description": "This course introduces the basics of web development."
+  },
+  {
+    "id": 3,
+    "thumbnail" : "../fake_data/course_images/course-3",
+    "title": "Data Structures and Algorithms",
+    "teacher": {
+      "id": 3,
+      "username": "bobSmith",
+      "password": "password789",
+      "email": "bobSmith@example.com",
+      "role": "ADMIN",
+      "faqs": [
+        {
+          "id": 3,
+          "question": "What is a data structure?",
+          "answer": "A data structure is a particular way of organizing and storing data in a computer so that it can be accessed and modified efficiently.",
+          "user": "student3",
+          "course": "Data Structures and Algorithms"
+        }
+      ]
+    },
+    "category": {
+      "id": 3,
+      "name": "Computer Science",
+      "description": "Courses related to computer science."
+    },
+    "price": 200,
+    "description": "This course covers the basics of data structures and algorithms."
+  },
+  {
+    "id": 4,
+    "thumbnail" : "../fake_data/course_images/course-4",
+    "title": "Machine Learning for Beginners",
+    "teacher": {
+      "id": 4,
+      "username": "aliceJohnson",
+      "password": "password012",
+      "email": "aliceJohnson@example.com",
+      "role": "ADMIN",
+      "faqs": [
+        {
+          "id": 4,
+          "question": "What is machine learning?",
+          "answer": "Machine learning is a type of artificial intelligence (AI) that allows software applications to become more accurate in predicting outcomes without being explicitly programmed to do so.",
+          "user": "student4",
+          "course": "Machine Learning for Beginners"
+        }
+      ]
+    },
+    "category": {
+      "id": 4,
+      "name": "Artificial Intelligence",
+      "description": "Courses related to artificial intelligence."
+    },
+    "price": 250,
+    "description": "This course introduces the basics of machine learning."
+  },
+  {
+    "id": 5,
+    "thumbnail" : "../fake_data/course_images/course-5",
+    "title": "Introduction to Databases",
+    "teacher": {
+      "id": 5,
+      "username": "charlieBrown",
+      "password": "password345",
+      "email": "charlieBrown@example.com",
+      "role": "ADMIN",
+      "faqs": [
+        {
+          "id": 5,
+          "question": "What is a database?",
+          "answer": "A database is an organized collection of data stored and accessed electronically.",
+          "user": "student5",
+          "course": "Introduction to Databases"
+        }
+      ]
+    },
+    "category": {
+      "id": 5,
+      "name": "Databases",
+      "description": "Courses related to databases."
+    },
+    "price": 300,
+    "description": "This course introduces the basics of databases."
+  }
+]

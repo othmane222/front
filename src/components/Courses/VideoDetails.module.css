@@ -1,0 +1,22 @@
+.videoDetails {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.videoTitle {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.videoPlayerContainer {
+    margin-top: 20px;
+}
+
+.videoPlayerContainer p {
+    margin: 10px 0;
+    font-size: 1rem;
+}

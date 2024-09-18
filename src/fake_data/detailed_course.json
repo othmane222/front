@@ -1,0 +1,134 @@
+{
+  "id": 1,
+  "title": "Introduction to Python",
+  "teacher": {
+    "id": 1,
+    "username": "johnDoe",
+    "password": "password123",
+    "email": "johnDoe@example.com",
+    "role": "ADMIN",
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What is Python?",
+        "answer": "Python is a high-level, interpreted programming language.",
+        "user": "student1",
+        "course": "Introduction to Python"
+      }
+    ]
+  },
+  "students": [
+    {
+      "id": 2,
+      "username": "student1",
+      "password": "password123",
+      "email": "student1@example.com",
+      "role": "STUDENT",
+      "faqs": [
+        {
+          "id": 2,
+          "question": "What is Python used for?",
+          "answer": "Python is used for web development, data analysis, machine learning, AI, and more.",
+          "user": "johnDoe",
+          "course": "Introduction to Python"
+        }
+      ]
+    }
+  ],
+  "assignments": [
+    {
+      "id": 1,
+      "title": "Python Basics",
+      "description": "Complete the exercises on basic Python syntax.",
+      "course": "Introduction to Python",
+      "grades": [
+        {
+          "id": 1,
+          "value": 95,
+          "student": {
+            "id": 2,
+            "username": "student1",
+            "password": "password123",
+            "email": "student1@example.com",
+            "role": "STUDENT",
+            "faqs": [
+              {
+                "id": 2,
+                "question": "What is Python used for?",
+                "answer": "Python is used for web development, data analysis, machine learning, AI, and more.",
+                "user": "johnDoe",
+                "course": "Introduction to Python"
+              }
+            ]
+          },
+          "assignment": "Python Basics",
+          "quiz": "Python Quiz 1"
+        }
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "Python Quiz 1",
+      "course": "Introduction to Python",
+      "grades": [
+        {
+          "id": 1,
+          "value": 90,
+          "student": {
+            "id": 2,
+            "username": "student1",
+            "password": "password123",
+            "email": "student1@example.com",
+            "role": "STUDENT",
+            "faqs": [
+              {
+                "id": 2,
+                "question": "What is Python used for?",
+                "answer": "Python is used for web development, data analysis, machine learning, AI, and more.",
+                "user": "johnDoe",
+                "course": "Introduction to Python"
+              }
+            ]
+          },
+          "assignment": "Python Basics",
+          "quiz": "Python Quiz 1"
+        }
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "title": "Python Introduction",
+      "filePath": "/videos/python-introduction.mp4",
+      "fileType": "video/mp4",
+      "fileSize": 500,
+      "uploadDate": "2024-09-10T11:59:51.713Z",
+      "course": "Introduction to Python"
+    }
+  ],
+  "category": {
+    "id": 1,
+    "name": "Programming",
+    "description": "Courses related to programming and software development."
+  },
+  "pdfName": "Python-Course-Material.pdf",
+  "pdfType": "application/pdf",
+  "pdfData": [
+    "Python is a high-level, interpreted programming language...",
+    "Python is used for web development, data analysis, machine learning, AI, and more..."
+  ],
+  "price": 100,
+  "description": "This course introduces the basics of Python programming.",
+  "faqs": [
+    {
+      "id": 1,
+      "question": "What is Python?",
+      "answer": "Python is a high-level, interpreted programming language.",
+      "user": "student1",
+      "course": "Introduction to Python"
+    }
+  ]
+}
